@@ -13,6 +13,6 @@
 |
 */
 
-$router->get('/', function () use ($router) {
-    return $router->app->version();
-});
+namespace App\Http\Controllers;
+
+HomeController::routes($router);
