@@ -1,0 +1,34 @@
+{
+  "name": "foodoms-website",
+  "version": "1.0.0",
+  "description": "website frontend assets",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rm -r ./public/assets && webpack --config webpack.config.js --mode=development",
+    "prod": "rm -r ./public/assets && webpack --config webpack.config.js --mode=production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "bootstrap": "^4.5.2",
+    "browserify": "^16.5.2",
+    "css-loader": "^4.3.0",
+    "imagemin": "^7.0.1",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-pngquant": "^9.0.1",
+    "img-loader": "^3.0.2",
+    "jquery": "^3.5.1",
+    "node-sass": "^4.14.1",
+    "popper.js": "^1.16.1",
+    "sass-loader": "^10.0.2",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "file-loader": "^6.1.1",
+    "mini-css-extract-plugin": "^0.12.0"
+  }
+}
