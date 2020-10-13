@@ -9,7 +9,7 @@
     
     <title>Foodoms| Food Order Management System</title>
     
-    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
 	<link href="css/coming-sssoon.css" rel="stylesheet" />    
     
     <!--     Fonts     -->
@@ -32,13 +32,16 @@
         
         <div class="content">
             <h4 class="motto">Food Order Management System</h4>
-            <hr>
-            <h5 class="motto">Creating web apps that help restaurants (or other food providers)</h5>
+            <hr class="bg-white">
+            <h5 class="motto">Creating web apps that help restaurants (and other food providers)</h5>
         </div>
     </div>
     <div class="footer">
       <div class="container">
-             Foodoms <?php echo date('Y') == '2020' ? '2020' : '2020-'.date('Y'); ?>
+             <div class="d-flex flex-row">
+                 <div><a href="https://github.com/foodoms/foodoms">Github</a></div>
+                <div class="ml-auto">Foodoms <?php echo date('Y') == '2020' ? '2020' : '2020-'.date('Y'); ?></div>
+             </div>
       </div>
     </div>
  </div>
