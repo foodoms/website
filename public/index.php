@@ -20,27 +20,25 @@
 
 <body>
 
-<div class="main" style="background-image: url('images/restaurant.jpg')">
-
-<!--    Change the image source '/images/restaurant.jpg')" with your favourite image.     -->
+<div class="main" style="background-image: url('images/foodoms-restaurant.jpg')">
     
     <div class="cover black" data-color="black"></div>
      
-<!--   You can change the black color for the filter with those colors: blue, green, red, orange       -->
 
     <div class="container">
         <h1 class="logo cursive">
             Foodoms
         </h1>
-<!--  H1 can have 2 designs: "logo" and "logo cursive"           -->
         
         <div class="content">
             <h4 class="motto">Food Order Management System</h4>
+            <hr>
+            <h5 class="motto">Creating web apps that help restaurants (or other food providers)</h5>
         </div>
     </div>
     <div class="footer">
       <div class="container">
-             Foodoms <?php echo date('Y'); ?>
+             Foodoms <?php echo date('Y') == '2020' ? '2020' : '2020-'.date('Y'); ?>
       </div>
     </div>
  </div>
