@@ -1,28 +1,52 @@
-<?php
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+    
+    <title>Foodoms| Food Order Management System</title>
+    
+    <link href="css/bootstrap.css" rel="stylesheet" />
+	<link href="css/coming-sssoon.css" rel="stylesheet" />    
+    
+    <!--     Fonts     -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
+  
+</head>
 
-/*
-|--------------------------------------------------------------------------
-| Create The Application
-|--------------------------------------------------------------------------
-|
-| First we need to get an application instance. This creates an instance
-| of the application / container and bootstraps the application so it
-| is ready to receive HTTP / Console requests from the environment.
-|
-*/
+<body>
 
-$app = require __DIR__.'/../bootstrap/app.php';
+<div class="main" style="background-image: url('images/restaurant.jpg')">
 
-/*
-|--------------------------------------------------------------------------
-| Run The Application
-|--------------------------------------------------------------------------
-|
-| Once we have the application, we can handle the incoming request
-| through the kernel, and send the associated response back to
-| the client's browser allowing them to enjoy the creative
-| and wonderful application we have prepared for them.
-|
-*/
+<!--    Change the image source '/images/restaurant.jpg')" with your favourite image.     -->
+    
+    <div class="cover black" data-color="black"></div>
+     
+<!--   You can change the black color for the filter with those colors: blue, green, red, orange       -->
 
-$app->run();
+    <div class="container">
+        <h1 class="logo cursive">
+            Foodoms
+        </h1>
+<!--  H1 can have 2 designs: "logo" and "logo cursive"           -->
+        
+        <div class="content">
+            <h4 class="motto">Food Order Management System</h4>
+        </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+             Foodoms <?php echo date('Y'); ?>
+      </div>
+    </div>
+ </div>
+
+</body>
+    <script src="js/jquery-1.10.2.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	
+</html>
